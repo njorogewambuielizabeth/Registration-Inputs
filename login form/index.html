@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <form action="/login" method="post">
+            <select name="user_type" id="user_type" required>
+                <option value="" disabled selected>Select User Type</option>
+                <option value="candidate">Candidate</option>
+                <option value="company">Company</option>
+            </select>
+            
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+            
+            <label for="password">Password</label>
+            <div class="password-toggle">
+                <input type="password" name="password" id="password" required>
+                <span class="toggle-password"></span>
+            </div>
+            <br>
+            <a href="#" class="forgot-password">Forgot password?</a>
+            
+            <label class="remember-me">
+                <input type="checkbox" name="remember_me">
+              
+            </label>
+            <div id="rem">
+                <p>Remember me?</p>
+            </div>
+            
+            <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="/signup">Sign Up</a></p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

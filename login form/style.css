@@ -1,0 +1,82 @@
+body {
+    font-family: sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  select,
+  input,
+  button,
+  a {
+    width: 100%;
+    padding: 4px;
+    /* border:  solid #ccc; */
+    margin-bottom: 10px;
+
+  }
+  
+  select {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   
+  }
+  
+  a {
+    text-align: center;
+    text-decoration: none;
+    color: blue;
+  }
+  
+  .password-toggle {
+    position: relative;
+  }
+  
+  .password-toggle .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .password-toggle .toggle-password:before {
+    content: "\1F441";
+    font-size: 14px;
+  }
+  
+  .password-toggle .toggle-password.active:before {
+    content: "\1F576";
+  }
+  
+  .remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .remember-me input[type="checkbox"] {
+    margin-right: 95%;
+    margin-top: 5%;
+  }
+#rem{
+    margin-top: -2.5em;
+    margin-left: 5%;
+}
+  
