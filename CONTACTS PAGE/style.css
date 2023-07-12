@@ -56,11 +56,14 @@
     margin-right: 70%;
     margin-top: 2%;
   }
+  #contact-form button:hover{
+    color: #ee4e4e;
+  }
   
 
   
   button:hover {
-    background-color: #111;
+    color: #ee4e4e;
   }
   
   .image-container img {
