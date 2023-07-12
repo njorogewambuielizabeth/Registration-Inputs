@@ -1,0 +1,118 @@
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+    z-index: 9999;
+  }
+  
+  .footer-columns {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    flex-basis: calc(33.33% - 20px);
+    padding: 10px;
+  }
+  
+  .column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .column p {
+    margin-bottom: 10px;
+  }
+  
+  .column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .column li {
+    margin-bottom: 5px;
+  }
+  
+  .column li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .social-media-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-right: 75%;
+  }
+  
+  .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: none;
+    margin: 0 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .social-icon i {
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .social-icon:hover {
+    background-color: pink;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .newsletter-signup {
+    margin-top: 20px;
+  }
+  
+  .newsletter-signup h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .newsletter-signup p {
+    margin-bottom: 10px;
+  }
+  
+  .newsletter-signup input[type="email"],
+  .newsletter-signup button {
+    padding: 10px;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+    color: #000;
+    background-color: #fff;
+    font-size: 14px;
+  }
+  
+  .newsletter-signup button {
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .newsletter-signup button:hover{
+    color: red;
+  }
+  
