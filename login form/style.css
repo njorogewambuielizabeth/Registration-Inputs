@@ -19,8 +19,8 @@ h1 {
 
 select,
 input,
-button,
-a {
+button
+ {
   width: 100%;
   padding: 4px;
   margin-bottom: 10px;
@@ -42,6 +42,7 @@ a {
   text-align: left;
   text-decoration: none;
   color: blue;
+  margin-left: 10%;
 }
 
 .password-toggle {
@@ -66,13 +67,21 @@ a {
 }
 
 .remember-forgot {
-  display: flex;
+  display: inline-table;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 10px;
-  margin-right: 35%;
+  margin-right: 55%;
+
+  width: 100%;
+  margin-left: 10%;
 }
 
+
 .remember-forgot input[type="checkbox"] {
-  margin-right: 5px;
+  margin-right: 5%;
+}
+#check{
+  margin-right:95%;
+  margin-top: -2em;
 }
