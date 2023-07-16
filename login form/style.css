@@ -19,7 +19,7 @@ h1 {
 
 select,
 input,
-button
+button,a
  {
   width: 100%;
   padding: 4px;
@@ -42,7 +42,7 @@ a {
   text-align: left;
   text-decoration: none;
   color: blue;
-  margin-left: 10%;
+  margin-left: 1%;
 }
 
 .password-toggle {
@@ -69,10 +69,9 @@ a {
 .remember-forgot {
   display: inline-table;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   margin-bottom: 10px;
   margin-right: 55%;
-
   width: 100%;
   margin-left: 10%;
 }
