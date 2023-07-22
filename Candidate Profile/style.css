@@ -3,7 +3,7 @@ body {
     background: linear-gradient(to right, #6495ED, #d59f9f);
   }
   
-  .container {
+  .container-form {
     width: 400px;
     margin: 0 auto;
     padding: 20px;
